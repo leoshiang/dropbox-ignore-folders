@@ -41,7 +41,11 @@ dgxign-win --mode=s
 
 # 參數
 -c --cwd        使用目前目錄作為主目錄，不可以與 -h 同時使用。
+
 -h --home       主目錄。如果沒有指定，程式會自動抓取 Dropbox 主目錄。
+
 -m, --mode      模式。i=忽略資料夾，s=取消忽略資料夾
+
 -r, --regex     正規表示式，用來判斷目錄是否需要被處理。預設值 .*[\/\\](node_modules|bin|obj)$ 表示結尾是 node_modules,bin,obj 的目錄會被處理。
+
 -v, --verbose   顯示過程。
